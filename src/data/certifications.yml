@@ -1,6 +1,14 @@
 # Certifications
+- name: Fabric Data Engineer Associate
+  issuer: Microsoft
+  year: 2025
+
 - name: Fabric Analytics Engineer Associate
   issuer: Microsoft
+  year: 2024
+
+- name: Academy Accreditation - Databricks Lakehouse Fundamentals
+  issuer: Databricks
   year: 2024
 
 - name: Power BI Data Analyst Associate
@@ -15,8 +23,32 @@
   issuer: Microsoft
   year: 2023
 
+- name: Azure Fundamentals
+  issuer: Microsoft
+  year: 2023
+
+- name: Power Platform Fundamentals
+  issuer: Microsoft
+  year: 2023
+
+- name: Applied Data Science with Python - Level 2
+  issuer: IBM
+  year: 2023
+
+- name: Data Analysis Using Python
+  issuer: IBM
+  year: 2023
+
+- name: Data Visualization Using Python
+  issuer: IBM
+  year: 2023
+
 - name: Data Analysis with Python
   issuer: IBM / freeCodeCamp
+  year: 2022
+
+- name: Rambase Associate Consultant
+  issuer: RamBase
   year: 2022
 
 - name: Advanced studies in Machine Learning
@@ -26,3 +58,67 @@
 - name: Practical Programming
   issuer: HiMolde
   year: 2021
+
+- name: Data Science for Business - Level 1
+  issuer: IBM
+  year: 2020
+
+- name: Predictive Modeling Fundamentals I
+  issuer: IBM
+  year: 2020
+
+- name: Python for Data Science
+  issuer: IBM
+  year: 2019
+
+- name: Data Science Foundations - Level 2 (V2)
+  issuer: IBM
+  year: 2019
+
+- name: Data Science Methodology
+  issuer: IBM
+  year: 2019
+
+- name: Data Science Hands-On with Open Source Tools
+  issuer: IBM
+  year: 2019
+
+- name: Introduction to Data Science
+  issuer: IBM
+  year: 2019
+
+- name: Introduction to Data Studio
+  issuer: Google
+  year: 2019
+
+- name: Fundamentals of Incoterms
+  issuer: Alison
+  year: 2017
+
+- name: Google SketchUp for 3D Modelling
+  issuer: Alison
+  year: 2017
+
+- name: SQL and Relational Databases 101
+  issuer: IBM
+  year: 2017
+
+- name: CrossFit Level 1 Trainer
+  issuer: CrossFit, LLC
+  year: 2017
+
+- name: Big Data Hadoop Foundations
+  issuer: IBM
+  year: 2016
+
+- name: Business Intelligence and Knowledge Management Systems
+  issuer: Alison
+  year: 2016
+
+- name: Microsoft Excel 2010
+  issuer: Alison
+  year: 2016
+
+- name: Big Data Foundations
+  issuer: IBM
+  year: 2016

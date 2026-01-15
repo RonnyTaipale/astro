@@ -29,6 +29,7 @@ const site = {
   resumeHeaderContactInfo: config.resume_header_contact_info,
   displayHeaderContactInfo: toBool(config.display_header_contact_info),
   resumeHeaderIntro: config.resume_header_intro,
+  resumeFooter: config.resume_footer ?? "",
   resumeLookingForWork: config.resume_looking_for_work ?? null,
   resumeTheme: config.resume_theme,
   resumeSocialLinks: config.resume_social_links ?? {},
