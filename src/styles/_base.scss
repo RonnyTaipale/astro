@@ -15,6 +15,12 @@ body{
   color: $text_color;
   font-size: 16px;
   line-height: 1.5;
+  background: $white;
+}
+
+body.theme-dark {
+  background: linear-gradient(160deg, #1f212b 0%, #282a36 55%, #1c1e26 100%);
+  color: #e3e2e9;
 }
 
 .wrapper:before,

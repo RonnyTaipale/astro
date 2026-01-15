@@ -52,6 +52,14 @@ const isValidHref = (href) =>
       <meta itemprop="address" content={site.resumeContactAddress} />
 
       <header class="page-header">
+        <button class="theme-toggle no-print" type="button" aria-pressed="false">
+          <span class="toggle-track" aria-hidden="true">
+            <span class="toggle-icon sun"></span>
+            <span class="toggle-icon moon"></span>
+            <span class="toggle-knob"></span>
+          </span>
+          <span class="toggle-label">Toggle dark mode</span>
+        </button>
         {site.resumeAvatar && (
           <Image
             src={profilePic}
@@ -375,5 +383,29 @@ const isValidHref = (href) =>
         {site.resumeFooter}
       </footer>
     </div>
+    <script is:inline>
+      const storageKey = "resume-theme";
+      const toggle = document.querySelector(".theme-toggle");
+      const systemDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+      const saved = localStorage.getItem(storageKey);
+      const isDark = saved ? saved === "dark" : systemDark;
+
+      const applyTheme = (enabled) => {
+        document.body.classList.toggle("theme-dark", enabled);
+        if (toggle) {
+          toggle.setAttribute("aria-pressed", String(enabled));
+        }
+      };
+
+      applyTheme(isDark);
+
+      if (toggle) {
+        toggle.addEventListener("click", () => {
+          const next = !document.body.classList.contains("theme-dark");
+          applyTheme(next);
+          localStorage.setItem(storageKey, next ? "dark" : "light");
+        });
+      }
+    </script>
   </body>
 </html>
