@@ -180,6 +180,7 @@
 .experience-section,
 .education-section,
 .projects-section,
+.skills-section,
 .recognition-section,
 .associations-section {
   .resume-item-details {
@@ -197,6 +198,21 @@
     font-weight: 700;
     white-space: nowrap;
   }
+}
+
+.skills-section {
+  .resume-item-list {
+    --skills-columns: 1;
+    display: grid;
+    gap: 0 .75rem;
+    grid-auto-flow: row;
+    grid-template-columns: repeat(var(--skills-columns), minmax(0, 1fr));
+    padding-left: 1.2rem;
+    list-style-position: outside;
+  }
+
+  .resume-item-list[data-columns="2"] { --skills-columns: 2; }
+  .resume-item-list[data-columns="3"] { --skills-columns: 3; }
 }
 
 .education-section {
@@ -221,7 +237,7 @@
     justify-content: space-between;
     align-items: baseline;
     gap: .75rem;
-    margin-bottom: 1rem;
+    margin-bottom: .5rem;
   }
 
   .resume-item-details,
@@ -231,17 +247,17 @@
 
   .resume-item-details {
     flex: 1 1 auto;
+    font-weight: 400;
   }
 
   .resume-item-copy {
     flex: 0 0 auto;
-    font-weight: 700;
     text-align: right;
     white-space: nowrap;
   }
 
   @include media_larger_than_mobile {
-    .resume-item { margin-bottom: .75rem; }
+    .resume-item { margin-bottom: .5rem; }
   }
 }
 
@@ -278,6 +294,10 @@
       margin: 0 0 .2rem;
     }
   }
+  .header-contact-info {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
   .section-header {
     @include section_border_thin;
     margin-bottom: 1rem;
@@ -293,8 +313,8 @@
 
     .resume-item-details {
       font-size: 12px;
-      margin: 0 0 .75rem;
-      line-height: .7em;
+      // margin: 0 0 .35rem;
+      line-height: 1;
       font-style:italic;
 
       &.award-title {
@@ -302,8 +322,13 @@
       }
     }
   }
+  .certifications-section {
+    .resume-item { margin-bottom: .35rem; }
+    .resume-item-details,
+    .resume-item-copy { line-height: 1; }
+  }
   .executive-summary {
-    font-size: 12px;
-    line-height: 1rem;
+    font-size: 12px !important;
+    line-height: 1rem !important;
   }
 }

@@ -4,7 +4,8 @@
   role: Process owner
   duration: "Feb 2019 &mdash; Apr 2020"
   # url: "#"
-  description: Initiated and rolled out Microsoft Teams at HAVA Logistics AS, including training sessions for collaboration and social interaction.
+  description: 
+    - Initiated and rolled out Microsoft Teams at HAVA Logistics AS, including training sessions for collaboration and social interaction
 
 # - project: Material Administration for Procurement in modifications
 #   role: Process owner

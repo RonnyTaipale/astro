@@ -117,7 +117,16 @@ const isValidHref = (href) =>
                 <span class="detail-left">{job.position}</span>
                 <span class="detail-right" set:html={job.duration} />
               </h4>
-              <div class="resume-item-copy" set:html={job.summary} />
+              {job.summary &&
+                (Array.isArray(job.summary) ? (
+                  <ul class="resume-item-list">
+                    {job.summary.map((item) => (
+                      <li set:html={item} />
+                    ))}
+                  </ul>
+                ) : (
+                  <div class="resume-item-copy" set:html={job.summary} />
+                ))}
             </div>
           ))}
         </section>
@@ -153,11 +162,18 @@ const isValidHref = (href) =>
                   ))}
                 </ul>
               )}
-              {educationItem.summary && (
-                <p class="resume-item-copy" itemprop="description">
-                  {educationItem.summary}
-                </p>
-              )}
+              {educationItem.summary &&
+                (Array.isArray(educationItem.summary) ? (
+                  <ul class="resume-item-list" itemprop="description">
+                    {educationItem.summary.map((subject) => (
+                      <li>{subject}</li>
+                    ))}
+                  </ul>
+                ) : (
+                  <p class="resume-item-copy" itemprop="description">
+                    {educationItem.summary}
+                  </p>
+                ))}
             </div>
           ))}
         </section>
@@ -185,14 +201,23 @@ const isValidHref = (href) =>
                 <span class="detail-left">{project.role}</span>
                 <span class="detail-right" set:html={project.duration} />
               </h4>
-              <p class="resume-item-copy">{project.description}</p>
+              {project.description &&
+                (Array.isArray(project.description) ? (
+                  <ul class="resume-item-list">
+                    {project.description.map((bullet) => (
+                      <li>{bullet}</li>
+                    ))}
+                  </ul>
+                ) : (
+                  <p class="resume-item-copy">{project.description}</p>
+                ))}
             </div>
           ))}
         </section>
       )}
 
       {site.sections.skills && (
-        <section class="content-section">
+        <section class="content-section skills-section">
           <header class="section-header">
             <h2>Skills</h2>
           </header>
@@ -200,7 +225,21 @@ const isValidHref = (href) =>
           {skills.map((skill) => (
             <div class="resume-item">
               <h4 class="resume-item-details">{skill.skill}</h4>
-              <p class="resume-item-copy">{skill.description}</p>
+              {skill.description &&
+                (Array.isArray(skill.description) ? (
+                  <ul
+                    class="resume-item-list"
+                    data-columns={
+                      skill.description.length > 1 ? skill.columns ?? 2 : 1
+                    }
+                  >
+                    {skill.description.map((bullet) => (
+                      <li>{bullet}</li>
+                    ))}
+                  </ul>
+                ) : (
+                  <p class="resume-item-copy">{skill.description}</p>
+                ))}
             </div>
           ))}
         </section>
