@@ -1,0 +1,27 @@
+# Skills
+# Organizational leadership
+- skill: Organizational leadership
+  description: I have several years of experience leading organziations from community groups to business departments. From public speaking, to mentoring, to coordination of people and events, I can lead in any context.
+
+# Communications strategy
+- skill: Communications strategy
+  description: Content and marketing strategy,
+
+# Digital content development and creation
+- skill: Digital content development and creation
+  description: Copy writing, graphic design, web design, front-end web development, print design
+
+- skill: Certifications and coursework
+  description: "Microsoft Certified: Fabric Analytics Engineer Associate (2024); Power BI Data Analyst Associate (2023); Azure AI Fundamentals / Data Fundamentals (2023); Data Analysis with Python (IBM / freeCodeCamp, 2022); Videreutdanning i Maskinlaering (UiB) and Praktisk programmering (HiMolde, 2021)."
+
+- skill: Data platform
+  description: Microsoft Fabric, Azure (Data Factory, Synapse), Data Lake/Medallion architecture.
+
+- skill: Programming
+  description: Python, SQL, DAX, MATLAB.
+
+- skill: Analytics and BI
+  description: Power BI, Power Apps, Power Pages, Airflow.
+
+- skill: Languages
+  description: Norwegian (Native), English (Fluent), German (Basic).

@@ -1,0 +1,25 @@
+# Jobs
+- company: Knutsen OAS
+  position: Data Analysis Engineer
+  duration: "Feb, 2023 &mdash; Present"
+  summary: <ul class="resume-item-list"><li>Responsible for operations, development, and architecture of the company&apos;s data and analytics platform.</li><li>Implemented a data lake with medallion architecture using Microsoft Azure and Fabric.</li><li>Built a Power Pages solution for fleet management that replaced manual Excel processes and ensured structured collection of operational and consumption data.</li><li>Developed and optimized ETL/ELT processes with a focus on data quality and robustness using tools such as Airflow and Azure Data Factory.</li><li>Established automated reports and dashboards in Power BI for strategic decision-making.</li></ul>
+
+- company: RamBase
+  position: Systems Consultant
+  duration: "Aug, 2022 &mdash; Jan, 2023"
+  summary: <ul class="resume-item-list"><li>Specialized in logistics and procurement with responsibility for implementation projects and user training.</li><li>Served as the link between customers and the development team to translate needs into functional solutions.</li></ul>
+
+- company: Hava Logistics AS
+  position: Head of Procurement and Logistics
+  duration: "Nov, 2018 &mdash; Aug, 2022"
+  summary: <ul class="resume-item-list"><li>Responsible for process improvement, digitization, and cost-efficient warehouse management.</li><li><strong>Results:</strong> Developed scanning tools that halved goods-receipt time and automated processes saving about 30 labor hours per week.</li><li>Implemented min/max control and advanced inventory analysis in Power BI.</li></ul>
+
+- company: Aibel AS
+  position: Senior Buyer
+  duration: "Jan, 2012 &mdash; Nov, 2018"
+  summary: <ul class="resume-item-list"><li>Project buyer responsible for strategies, tenders, and complex contract negotiations.</li><li>Process owner for materials management in the management system (W3) and development of cost reports for leadership.</li></ul>
+
+- company: H&oslash;gskolen i Stord/Haugesund
+  position: Lecturer in Mathematical Programming
+  duration: Nov, 2014
+  summary: <ul class="resume-item-list"><li>Taught MATLAB for solving advanced mathematical and engineering problems.</li></ul>
