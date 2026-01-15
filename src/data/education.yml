@@ -1,4 +1,40 @@
 # Degree
+
+- degree: Individual Subjects
+  uni: University of Bergen (UiB)
+  year: "2022"
+  summary: "Subjects: Introduction to Cybersecurity."
+
+- degree: Individual Subjects
+  uni: University of Bergen (UiB)
+  year: "2021"
+  summary: "Subjects: Course in basic programming."
+
+- degree: Individual Subjects
+  uni: Western Norway University of Applied Sciences
+  year: "2021"
+  summary: "Subjects: Machine learning for business development."
+
+- degree: Individual Subjects
+  uni: Norwegian University of Science and Technology (NTNU)
+  year: "2021"
+  summary: "Subjects: Digital Strategy and Management; Introduction to Big Data; Introduction to Logistic Management."
+
+- degree: Individual Subjects
+  uni: Molde University College
+  year: "2021"
+  summary: "Subjects: Information Technology; Practical Programming; Databases; Business Processes and ERP; Purchase Management; Value Chain Analysis; Inventory and Production Planning."
+
+- degree: Individual Subjects
+  uni: University of South-Eastern Norway
+  year: "2021"
+  summary: "Subjects: Python programming for calculations."
+
+- degree: Individual Subjects
+  uni: Western Norway University of Applied Sciences
+  year: "2015"
+  summary: "Subjects: Project Management and Leadership."
+
 - degree: Master of Technology (Sivilingenior), Industrial Technology
   uni: UiT Narvik
   year: "2010 &mdash; 2012"

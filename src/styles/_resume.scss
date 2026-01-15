@@ -199,6 +199,22 @@
   }
 }
 
+.education-section {
+  .resume-item-details {
+    display: block;
+
+    &::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  }
+
+  .detail-right {
+    float: right;
+  }
+}
+
 .certifications-section {
   .resume-item {
     display: flex;
