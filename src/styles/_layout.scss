@@ -1,6 +1,9 @@
 // Layout styles
 // ---------------------------------------/
 
+@use "./mixins" as *;
+@use "./variables" as *;
+
 // Layout from Primer (https://github.com/primer/primer/blob/master/scss/_layout.scss)
 
 // Fixed-width, centered column for site content.

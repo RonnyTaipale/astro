@@ -30,7 +30,7 @@
   }
 }
 
-// media querie tools
+// media query tools
 
 @mixin media_max($screen_width) {
   @media (max-width: $screen_width) { @content; }
