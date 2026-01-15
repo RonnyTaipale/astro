@@ -1,13 +1,13 @@
-import fs from "node:fs";
-import path from "node:path";
-import { fileURLToPath } from "node:url";
 import YAML from "yaml";
 
-const dataDir = path.dirname(fileURLToPath(import.meta.url));
+const yamlModules = import.meta.glob("./*.yml", { as: "raw", eager: true });
 
 const readYaml = (name) => {
-  const filePath = path.join(dataDir, name);
-  const contents = fs.readFileSync(filePath, "utf8");
+  const key = `./${name}`;
+  const contents = yamlModules[key];
+  if (!contents) {
+    throw new Error(`Missing data file: ${name}`);
+  }
   return YAML.parse(contents);
 };
 
