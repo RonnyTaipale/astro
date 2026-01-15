@@ -98,7 +98,7 @@ const isValidHref = (href) =>
       </header>
 
       {site.sections.experience && (
-        <section class="content-section">
+        <section class="content-section experience-section">
           <header class="section-header">
             <h2>Experience</h2>
           </header>
@@ -114,7 +114,8 @@ const isValidHref = (href) =>
                 <span set:html={job.company} />
               </h3>
               <h4 class="resume-item-details" itemprop="description">
-                <span>{job.position}</span> &bull; <span set:html={job.duration} />
+                <span class="detail-left">{job.position}</span>
+                <span class="detail-right" set:html={job.duration} />
               </h4>
               <div class="resume-item-copy" set:html={job.summary} />
             </div>
@@ -123,7 +124,7 @@ const isValidHref = (href) =>
       )}
 
       {site.sections.education && (
-        <section class="content-section">
+        <section class="content-section education-section">
           <header class="section-header">
             <h2>Education</h2>
           </header>
@@ -137,7 +138,8 @@ const isValidHref = (href) =>
             >
               <h3 class="resume-item-title" itemprop="name">{educationItem.uni}</h3>
               <h4 class="resume-item-details group" itemprop="description">
-                {educationItem.degree} &bull; <span set:html={educationItem.year} />
+                <span class="detail-left">{educationItem.degree}</span>
+                <span class="detail-right" set:html={educationItem.year} />
               </h4>
               {educationItem.award && (
                 <h5 class="resume-item-details award-title" itemprop="description">
@@ -162,7 +164,7 @@ const isValidHref = (href) =>
       )}
 
       {site.sections.projects && (
-        <section class="content-section">
+        <section class="content-section projects-section">
           <header class="section-header">
             <h2>Projects</h2>
           </header>
@@ -180,7 +182,8 @@ const isValidHref = (href) =>
                 )}
               </h3>
               <h4 class="resume-item-details" itemprop="description">
-                {project.role} &bull; <span set:html={project.duration} />
+                <span class="detail-left">{project.role}</span>
+                <span class="detail-right" set:html={project.duration} />
               </h4>
               <p class="resume-item-copy">{project.description}</p>
             </div>
@@ -204,7 +207,7 @@ const isValidHref = (href) =>
       )}
 
       {site.sections.certifications && (
-        <section class="content-section">
+        <section class="content-section certifications-section">
           <header class="section-header">
             <h2>Certifications</h2>
           </header>
@@ -227,7 +230,7 @@ const isValidHref = (href) =>
       )}
 
       {site.sections.recognition && (
-        <section class="content-section">
+        <section class="content-section recognition-section">
           <header class="section-header">
             <h2>Recognition</h2>
           </header>
@@ -238,7 +241,8 @@ const isValidHref = (href) =>
                 {recognition.award}
               </h3>
               <h4 class="resume-item-details">
-                {recognition.organization} &bull; {recognition.year}
+                <span class="detail-left">{recognition.organization}</span>
+                <span class="detail-right">{recognition.year}</span>
               </h4>
               <p class="resume-item-copy">{recognition.summary}</p>
             </div>
@@ -247,7 +251,7 @@ const isValidHref = (href) =>
       )}
 
       {site.sections.associations && (
-        <section class="content-section">
+        <section class="content-section associations-section">
           <header class="section-header">
             <h2>Associations</h2>
           </header>
@@ -267,7 +271,8 @@ const isValidHref = (href) =>
                 )}
               </h3>
               <h4 class="resume-item-details" itemprop="description">
-                {association.role} &bull; <span set:html={association.year} />
+                <span class="detail-left">{association.role}</span>
+                <span class="detail-right" set:html={association.year} />
               </h4>
               <p class="resume-item-copy">{association.summary}</p>
             </div>
