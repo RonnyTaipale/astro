@@ -86,7 +86,9 @@ const baseUrl = import.meta.env.BASE_URL;
         </div>
 
         <div class="executive-summary" itemprop="description">
-          {site.resumeHeaderIntro}
+          {Array.isArray(site.resumeHeaderIntro)
+            ? site.resumeHeaderIntro.map((item) => <p>{item}</p>)
+            : site.resumeHeaderIntro && <p>{site.resumeHeaderIntro}</p>}
         </div>
 
         {site.resumeLookingForWork === "yes" && (
