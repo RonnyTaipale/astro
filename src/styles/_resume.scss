@@ -202,11 +202,11 @@
 
 .contact-button {
   @include border-radius(3px);
-  background-color: #efefef;
+  background-color: #c7c7c7;
   text-decoration: none;
   text-align: center;
   display: block;
-  margin: 1.5rem auto;
+  margin: 1.5rem auto .75rem;
   width: 220px;
   font-size: 1.375rem;
   @include sans_light;
@@ -403,7 +403,7 @@
   }
 
   .contact-button {
-    background-color: #1e242e;
+    background-color: #3a3f48;
     color: #e6e6e6;
   }
 

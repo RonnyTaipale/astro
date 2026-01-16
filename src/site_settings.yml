@@ -13,7 +13,6 @@ sass:
 # Resume settings
 resume_avatar:                  "true"
 resume_name:                    "Ronny Taipale"
-resume_title:                   "Data Analytics Engineer"
 
 # used for the contact button in _layouts/resume.html
 resume_contact_email:           "taironn@gmail.com"
@@ -25,21 +24,19 @@ resume_contact_address:         "Førresdalen 66, 5563 Førresfjorden, Norway"
 resume_header_contact_info:     "Førresdalen 66, 5563 Førresfjorden, Norway | +47 93280637 | taironn@gmail.com"
 display_header_contact_info:    "true"
 
-resume_header_intro:            "Civil engineer and data engineer with extensive experience building modern, cloud-based data platforms. Specialist in designing and maintaining data warehouses, ETL/ELT pipelines, and medallion architecture in Microsoft Azure and Fabric. Combines deep technical expertise with strong business understanding from logistics and project management to deliver measurable results."
-
 resume_footer:                "Ronny Taipale · 2026 · Norway"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
 # or remove the resume_looking_for_work option entirely
 # to leave blank
-# resume_looking_for_work:        "yes"
+# resume_looking_for_work:        "no"
 
 # Decide which sections to use
 # comment out to hide
 resume_section_experience:      true
 resume_section_education:       true
-resume_section_projects:        true
+# resume_section_projects:        true
 resume_section_skills:          true
 resume_section_certifications:  true
 # resume_section_recognition:     true
@@ -68,4 +65,3 @@ resume_theme:                   default
 # Note: when editing locally, remember to restart
 # your Jekyll server when you edit this file. Changes
 # to _config.yml are only recognized when the server starts
-

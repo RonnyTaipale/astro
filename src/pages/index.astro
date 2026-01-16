@@ -23,6 +23,7 @@ const isValidHref = (href) =>
   href.trim() !== "" &&
   href.trim() !== "#" &&
   !href.trim().toLowerCase().startsWith("javascript:");
+const baseUrl = import.meta.env.BASE_URL;
 ---
 <!DOCTYPE html>
 <html>
@@ -43,7 +44,7 @@ const isValidHref = (href) =>
 
     <meta name="description" content={site.description} />
     <link rel="canonical" href={site.url} />
-    <link rel="icon" type="image/x-icon" href={`${site.base ?? ""}/favicon.png`} />
+    <link rel="icon" type="image/x-icon" href={`${baseUrl}favicon.png`} />
   </head>
 
   <body class={themeClass}>
