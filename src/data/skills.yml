@@ -30,6 +30,7 @@
   columns: 3
   description:
     - Python
+    - PySpark
     - SQL
     - DAX
     - MATLAB
