@@ -1,9 +1,9 @@
 # Certifications
-- name: Fabric Data Engineer Associate
+- name: Fabric Data Engineer Associate (DP-700)
   issuer: Microsoft
   year: 2025
 
-- name: Fabric Analytics Engineer Associate
+- name: Fabric Analytics Engineer Associate (DP-600)
   issuer: Microsoft
   year: 2024
 
@@ -11,23 +11,23 @@
   issuer: Databricks
   year: 2024
 
-- name: Power BI Data Analyst Associate
+- name: Power BI Data Analyst Associate (PL-300)
   issuer: Microsoft
   year: 2023
 
-- name: Azure AI Fundamentals
+- name: Azure AI Fundamentals (AI-900)
   issuer: Microsoft
   year: 2023
 
-- name: Azure Data Fundamentals
+- name: Azure Data Fundamentals (DP-900)
   issuer: Microsoft
   year: 2023
 
-- name: Azure Fundamentals
+- name: Azure Fundamentals (AZ-900)
   issuer: Microsoft
   year: 2023
 
-- name: Power Platform Fundamentals
+- name: Power Platform Fundamentals (PL-900)
   issuer: Microsoft
   year: 2023
 

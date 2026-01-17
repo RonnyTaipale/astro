@@ -499,6 +499,18 @@
     display: block !important;
   }
 
+  body,
+  body.theme-dark {
+    color: #000;
+    background: #fff;
+  }
+
+  body a,
+  body.theme-dark a {
+    color: #000;
+    border-bottom-color: #000;
+  }
+
   body {
     font-size: 12px;
     line-height: 1rem;
