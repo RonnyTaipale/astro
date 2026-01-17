@@ -368,6 +368,27 @@
   }
 }
 
+.print-social-links {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+
+  ul {
+    flex: 1 1 auto;
+    margin: 0;
+  }
+}
+
+.print-social-qr {
+  flex: 0 0 auto;
+
+  img {
+    display: block;
+    width: 120px;
+    height: auto;
+  }
+}
+
 // Footer styles
 
 .page-footer {
